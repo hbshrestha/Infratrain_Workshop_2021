@@ -1,0 +1,5 @@
+carrier_1,timestep_dispatch,timestep_expansion,region_dispatch,region_expansion
+electricity,2,1,1,1
+gas,2,1,1,1
+hydrogen,2,1,1,1
+biogas,2,1,1,1

@@ -1,0 +1,7 @@
+timestep_1,carrier_1,region_1,parameter,value,comment
+,gas,,emissionFac,235,emission factor of using gas
+2020,,West,emissionUp,180,emission limit for West in 2020
+2020,,East,emissionUp,170,emission limit for East in 2020
+2030,,,emissionUp,5,joined emission limit for West and East in 2030
+,gas,,trdBuyPrc,12,price to buy gas from an external market
+,hydrogen,,trdBuyPrc,20,

@@ -1,0 +1,24 @@
+timestep_1,region_1,technology_1,parameter,value,comment
+all,East,wind,capaConvUp,150,upper limit for installation of renewables
+all,East,solar,capaConvUp,40,
+all,West,wind,capaConvUp,250,
+all,West,solar,capaConvUp,400,
+,,wind,costExpConv,1360.4,expansion costs for generation technologies
+,,solar,costExpConv,455.1,
+,,gasTurbine,costExpConv,597,
+,,electrolysis,costExpConv,904.3,
+,,hydrogenTurbine,costExpConv,597,
+,,battery,costExpStIn,65,expansion costs for storage technologies
+,,battery,costExpStSize,375,
+,,battery,stOutToStIn,1,
+,,hydrogenStorage,costExpStIn,0.095,
+,,hydrogenStorage,costExpStSize,0.1,
+,,hydrogenStorage,stOutToStIn,1,
+,,gasTurbine,effConv,0.46,efficiency of generation technologies
+,,electrolysis,effConv,0.55,
+,,hydrogenTurbine,effConv,0.46,
+,,battery,effStIn,0.96,efficiency when charging storage
+,,hydrogenStorage,effStIn,0.98,
+,,battery,effStOut,0.96,efficiency when discharging storage
+,,hydrogenStorage,effStOut,0.98,
+,,battery,stDis,0.0001,self-discharge rate of battery storage
