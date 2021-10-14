@@ -1,5 +1,10 @@
 timestep_1,carrier_1,region_1,region_1,parameter,value,comment
-,electricity,West,East,capaExcResi,2,adds a preexisting line between the regions
-all,electricity,West,East,capaExcUp,14,sets an upper limit for expansion of the line
-,electricity,West,East,costExpExc,1000,specifies costs for expansion of the line
-,electricity,West,East,lossExc,0.05,
+,electricity,Mid,North,capaExcResi,0,adds a preexisting line between the regions
+,electricity,South,Mid,capaExcResi,0,
+,electricity,South,North,capaExcResi,0,
+,electricity,Mid,North,costExpExc,1666.5,specifies costs for expansion of the line
+,electricity,South,Mid,costExpExc,1666.5,
+,electricity,South,North,costExpExc,3030,
+,electricity,Mid,North,lossExc,0.1,
+,electricity,South,Mid,lossExc,0.1,
+,electricity,South,North,lossExc,0.15,

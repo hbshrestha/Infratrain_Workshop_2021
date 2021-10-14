@@ -1,7 +1,7 @@
 technology_1,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carrier_stored_out
 wind,,electricity,,
 solar,,electricity,,
-gasTurbine,gas; biogas,electricity,,
+gasTurbine,gas,electricity,,
 pumpedHydro,,,electricity,electricity
 hydrogenStorage,,,electricity,electricity
 coalPlant,coal,electricity,,

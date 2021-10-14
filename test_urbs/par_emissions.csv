@@ -1,7 +1,10 @@
 timestep_1,carrier_1,region_1,parameter,value,comment
-,gas,,emissionFac,235,emission factor of using gas
-2020,,West,emissionUp,180,emission limit for West in 2020
-2020,,East,emissionUp,170,emission limit for East in 2020
-2030,,,emissionUp,5,joined emission limit for West and East in 2030
-,gas,,trdBuyPrc,12,price to buy gas from an external market
-,hydrogen,,trdBuyPrc,20,
+,gas,,emissionFac,200,emission factor of using gas
+,coal,,emissionFac,300,emission factor of using coal
+,lignite,,emissionFac,400,emission factor of using lignite
+,,,emissionFac,0,emission factor of using all other carriers
+2025,,,emissionUp,150,joined emission limit for West and East in 2025 in Mil. T CO2
+,gas,,trdBuyPrc,27,price to buy gas from an external market
+,coal,,trdBuyPrc,7,price to buy coal from an external market
+,lignite,,trdBuyPrc,4,price to buy lignite from an external market
+,biomass,,trdBuyPrc,6,price to buy biomass from an external market

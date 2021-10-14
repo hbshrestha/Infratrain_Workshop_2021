@@ -1,24 +1,86 @@
 timestep_1,region_1,technology_1,parameter,value,comment
-all,East,wind,capaConvUp,150,upper limit for installation of renewables
-all,East,solar,capaConvUp,40,
-all,West,wind,capaConvUp,250,
-all,West,solar,capaConvUp,400,
-,,wind,costExpConv,1360.4,expansion costs for generation technologies
-,,solar,costExpConv,455.1,
-,,gasTurbine,costExpConv,597,
-,,electrolysis,costExpConv,904.3,
-,,hydrogenTurbine,costExpConv,597,
-,,battery,costExpStIn,65,expansion costs for storage technologies
-,,battery,costExpStSize,375,
-,,battery,stOutToStIn,1,
-,,hydrogenStorage,costExpStIn,0.095,
-,,hydrogenStorage,costExpStSize,0.1,
-,,hydrogenStorage,stOutToStIn,1,
-,,gasTurbine,effConv,0.46,efficiency of generation technologies
-,,electrolysis,effConv,0.55,
-,,hydrogenTurbine,effConv,0.46,
-,,battery,effStIn,0.96,efficiency when charging storage
-,,hydrogenStorage,effStIn,0.98,
-,,battery,effStOut,0.96,efficiency when discharging storage
-,,hydrogenStorage,effStOut,0.98,
-,,battery,stDis,0.0001,self-discharge rate of battery storage
+all,Mid,wind,capaConvUp,13,upper limit for installation of renewables
+all,Mid,solar,capaConvUp,160,
+all,Mid,gasTurbine,capaConvUp,80,
+all,Mid,hydro,capaConvUp,1.4,
+all,Mid,lignitePlant,capaConvUp,60,
+all,Mid,biomassPlant,capaConvUp,5,
+all,North,wind,capaConvUp,60,
+all,North,solar,capaConvUp,3,
+all,North,gasTurbine,capaConvUp,100,
+all,North,hydro,capaConvUp,20,
+all,North,biomassPlant,capaConvUp,6,
+all,South,wind,capaConvUp,200,
+all,South,solar,capaConvUp,600,
+all,South,gasTurbine,capaConvUp,100,
+all,South,hydro,capaConvUp,0,
+all,South,biomassPlant,capaConvUp,2,
+all,Mid,wind,costExpConv,1530,expansion costs for generation technologies. Sum of investment and fixed costs.
+all,Mid,solar,costExpConv,612,
+all,Mid,gasTurbine,costExpConv,456,
+all,Mid,hydro,costExpConv,1620,
+all,Mid,lignitePlant,costExpConv,618,
+all,Mid,biomassPlant,costExpConv,903,
+all,South,wind,costExpConv,1530,
+all,South,solar,costExpConv,612,
+all,South,gasTurbine,costExpConv,456,
+all,South,hydro,costExpConv,1620,
+all,South,coalPlant,costExpConv,618,
+all,South,biomassPlant,costExpConv,903,
+all,North,wind,costExpConv,1530,
+all,North,solar,costExpConv,612,
+all,North,gasTurbine,costExpConv,456,
+all,North,hydro,costExpConv,1620,
+all,North,lignitePlant,costExpConv,618,
+all,North,biomassPlant,costExpConv,903,
+all,Mid,gasTurbine,effConv,0.46,efficiency of generation technologies
+all,Mid,wind,effConv,1,
+all,Mid,solar,effConv,1,
+all,Mid,lignitePlant,effConv,0.4,
+all,Mid,hydro,effConv,1,
+all,Mid,biomassPlant,effConv,0.35,
+all,Mid,coalPlant,,0.4,
+all,Mid,hydrogenStorage,costExpStIn,0.00656,expansion costs for storage 
+all,Mid,hydrogenStorage,costExpStSize,42,Sum of investment and fixed cost power
+all,Mid,pumpedHydro,costExpStIn,0,
+all,Mid,pumpedHydro,costExpStSize,120,
+all,Mid,hydrogenStorage,stOutToStIn,1,
+all,Mid,pumpedHydro,stOutToStIn,1,
+all,Mid,hydrogenStorage,effStIn,0.64,efficiency when charging storage
+all,Mid,hydrogenStorage,effStOut,0.64,efficiency when discharging storage
+all,Mid,pumpedHydro,effStIn,0.94,efficiency when charging storage
+all,Mid,pumpedHydro,effStOut,0.94,efficiency when discharging storage
+all,South,gasTurbine,effConv,0.46,efficiency of generation technologies
+all,South,wind,effConv,1,
+all,South,solar,effConv,1,
+all,South,lignitePlant,effConv,0.4,
+all,South,hydro,effConv,1,
+all,South,biomassPlant,effConv,0.35,
+all,South,coalPlant,,0.4,
+all,South,hydrogenStorage,costExpStIn,0.00656,expansion costs for storage 
+all,South,hydrogenStorage,costExpStSize,42,Sum of investment and fixed cost power
+all,South,pumpedHydro,costExpStIn,0,
+all,South,pumpedHydro,costExpStSize,120,
+all,South,hydrogenStorage,stOutToStIn,1,
+all,South,pumpedHydro,stOutToStIn,1,
+all,South,hydrogenStorage,effStIn,0.64,efficiency when charging storage
+all,South,hydrogenStorage,effStOut,0.64,efficiency when discharging storage
+all,South,pumpedHydro,effStIn,0.94,efficiency when charging storage
+all,South,pumpedHydro,effStOut,0.94,efficiency when discharging storage
+all,North,gasTurbine,effConv,0.46,efficiency of generation technologies
+all,North,wind,effConv,1,
+all,North,solar,effConv,1,
+all,North,lignitePlant,effConv,0.4,
+all,North,hydro,effConv,1,
+all,North,biomassPlant,effConv,0.35,
+all,North,coalPlant,,0.4,
+all,North,hydrogenStorage,costExpStIn,0.00656,expansion costs for storage 
+all,North,hydrogenStorage,costExpStSize,42,Sum of investment and fixed cost power
+all,North,pumpedHydro,costExpStIn,0,
+all,North,pumpedHydro,costExpStSize,120,
+all,North,hydrogenStorage,stOutToStIn,1,
+all,North,pumpedHydro,stOutToStIn,1,
+all,North,hydrogenStorage,effStIn,0.64,efficiency when charging storage
+all,North,hydrogenStorage,effStOut,0.64,efficiency when discharging storage
+all,North,pumpedHydro,effStIn,0.94,efficiency when charging storage
+all,North,pumpedHydro,effStOut,0.94,efficiency when discharging storage
