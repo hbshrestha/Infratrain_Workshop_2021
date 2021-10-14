@@ -2,7 +2,9 @@ technology_1,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carr
 wind,,electricity,,
 solar,,electricity,,
 gasTurbine,gas; biogas,electricity,,
-battery,,,electricity,electricity
-electrolysis,electricity,hydrogen,,
-hydrogenStorage,,,hydrogen,hydrogen
-hydrogenTurbine,hydrogen,electricity,,
+pumpedHydro,,,electricity,electricity
+hydrogenStorage,,,electricity,electricity
+coalPlant,coal,electricity,,
+lignitePlant,lignite,electricity,,
+hydro,,,,
+biomassPlant,biomass,electricity,,
