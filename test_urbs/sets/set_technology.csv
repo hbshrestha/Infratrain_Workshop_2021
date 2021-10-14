@@ -6,5 +6,5 @@ pumpedHydro,,,electricity,electricity
 hydrogenStorage,,,electricity,electricity
 coalPlant,coal,electricity,,
 lignitePlant,lignite,electricity,,
-hydro,,,,
+hydro,,electricity,,
 biomassPlant,biomass,electricity,,

@@ -1,0 +1,2 @@
+errStatus,section,location,message
+yellow,limit,capaConv,"upper or lower limit of zero detected, please consider to use fix or omit limit instead"
